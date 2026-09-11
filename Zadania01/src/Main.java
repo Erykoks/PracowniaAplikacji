@@ -121,5 +121,20 @@ void main() {
 
         }
     }
+    //zad9
+    import java.util.Scanner;
+
+    public class Zad9 {
+        public static void main(String[] args) {
+
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.println("Podaj slowo:");
+            String slowo = scanner.nextLine();
+
+            System.out.println(slowo.toUpperCase());
+
+        }
+    }
 
 }
