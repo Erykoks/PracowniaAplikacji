@@ -49,5 +49,28 @@ void main() {
 
         }
     }
+    //zad5
+    import java.util.Scanner;
+
+    public class Zad5 {
+        public static void main(String[] args) {
+
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.println("Podaj pierwszy bok:");
+            double a = scanner.nextDouble();
+
+            System.out.println("Podaj drugi bok:");
+            double b = scanner.nextDouble();
+
+            System.out.println("Podaj trzeci bok:");
+            double c = scanner.nextDouble();
+
+            double obwod = a + b + c;
+
+            System.out.println("Obwod trojkata wynosi: " + obwod);
+
+        }
+    }
 
 }
