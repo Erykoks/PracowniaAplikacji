@@ -136,5 +136,23 @@ void main() {
 
         }
     }
+    //zad10
+    import java.util.Scanner;
+
+    public class Zad10 {
+        public static void main(String[] args) {
+
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.println("Podaj promien kola:");
+            int r = scanner.nextInt();
+
+            double pole = Math.PI * r * r;
+
+            System.out.println("Pole kola wynosi: " + pole);
+
+        }
+    }
+
 
 }
