@@ -72,5 +72,26 @@ void main() {
 
         }
     }
+    //zad6
+    import java.util.Scanner;
+
+    public class Zad6 {
+        public static void main(String[] args) {
+
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.println("Podaj pierwsze slowo:");
+            String slowo1 = scanner.nextLine();
+
+            System.out.println("Podaj drugie slowo:");
+            String slowo2 = scanner.nextLine();
+
+            System.out.println("Podaj trzecie slowo:");
+            String slowo3 = scanner.nextLine();
+
+            System.out.println(slowo3 + ", " + slowo2 + ", " + slowo1);
+
+        }
+    }
 
 }
