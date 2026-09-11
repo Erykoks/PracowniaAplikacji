@@ -108,5 +108,18 @@ void main() {
 
         }
     }
+//zad8
+    public class Zad8 {
+        public static void main(String[] args) {
+
+            int x = 5;
+            int y = 2;
+
+            double wynik = (double) x / y;
+
+            System.out.println(wynik);
+
+        }
+    }
 
 }
