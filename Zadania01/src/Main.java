@@ -30,4 +30,24 @@ void main() {
         }
     }
 
+    //zad4
+    import java.util.Scanner;
+
+    public class Zad4 {
+        public static void main(String[] args) {
+
+            Scanner scanner = new Scanner(System.in);
+
+            double stopnie;
+
+            System.out.println("Podaj temperature w stopniach Celsjusza:");
+            stopnie = scanner.nextDouble();
+
+            double fahrenheit = 1.8 * stopnie + 32.0;
+
+            System.out.println("Temperatura w Fahrenheitach wynosi: " + fahrenheit);
+
+        }
+    }
+
 }
